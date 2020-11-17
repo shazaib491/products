@@ -1,0 +1,15 @@
+function promiseA(){
+    return new promise ((resolve, reject)=>{
+        resolve (value=6)
+    })
+    function sum (number){
+        return new promise ((resolve, reject)=>{
+            resolve (value=number+number)
+        })
+        function product (number){
+            return new promise ((resolve, reject)=>{
+                resolve (value=number*number)
+            })
+        }
+    }
+}

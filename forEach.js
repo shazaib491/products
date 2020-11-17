@@ -11,6 +11,17 @@ const companies= [
 ];
 
 // forEach
+// for(let i=1; i<companies.length; i++){
+// console.log(companies[i]);
+// }
+// for(let i of companies){
+//   console.log(i);
+// }
+
+
+
+
+
 
 companies.forEach((company,index,full_array)=>{
   // console.log(company.name);
